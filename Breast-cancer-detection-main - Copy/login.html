@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Breast Cancer Login</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins","Segoe UI",sans-serif;
+}
+
+/* 🩺 BACKGROUND */
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.65)),
+        url("./Assest/img4.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+/* ✨ FLOATING EMOJIS */
+.emoji{
+    position:absolute;
+    opacity:0.3;
+    transform:translateY(120vh);
+}
+
+.emoji.animate{
+    animation:float 10s linear infinite;
+}
+
+@keyframes float{
+    from{ transform:translateY(120vh); }
+    to{ transform:translateY(-20vh); }
+}
+
+/* 🧊 GLASS LOGIN BOX */
+.login-container{
+    max-width:500px;
+    width:90%;
+    padding:50px 60px;
+
+    background:rgba(0,166,199,0.18);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+
+    border-radius:26px;
+    box-shadow:0 30px 70px rgba(0,0,0,0.6);
+
+    text-align:center;
+    color:#fff;
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{ opacity:0; transform:translateY(30px); }
+    to{ opacity:1; transform:translateY(0); }
+}
+
+/* 🧠 HEADING */
+h2{
+    font-size:32px;
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    font-size:15px;
+    opacity:0.9;
+    margin-bottom:30px;
+}
+
+/* 🔖 LABELS */
+.field-label{
+    font-size:20px;
+    font-weight:500;
+    margin:18px 0 6px;
+    display:block;
+    text-align:left;
+}
+
+/* 🧾 INPUTS */
+input{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:16px;
+    font-size:15px;
+    background:rgba(255,255,255,0.95);
+}
+
+input::placeholder{
+    color:#555;
+}
+
+input:focus{
+    outline:none;
+    box-shadow:0 0 0 3px rgba(0,180,216,0.8);
+}
+
+/* 🔐 BUTTON */
+button{
+    width:100%;
+    padding:16px;
+    margin-top:25px;
+
+    border:none;
+    border-radius:20px;
+    background:linear-gradient(135deg,#00A6C7,#007C99);
+    color:white;
+
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-4px);
+    box-shadow:0 15px 30px rgba(0,119,182,0.7);
+}
+
+button:active{
+    transform:scale(0.97);
+}
+</style>
+</head>
+
+<body>
+
+<!-- FLOATING EMOJIS (FIRST = STETHOSCOPE) -->
+<div class="emoji" style="left:10%; animation-delay:0s; font-size:110px;">🩺</div>
+<div class="emoji" style="left:30%; animation-delay:2s; font-size:95px;">💊</div>
+<div class="emoji" style="left:50%; animation-delay:4s; font-size:115px;">🧬</div>
+<div class="emoji" style="left:70%; animation-delay:6s; font-size:100px;">🫀</div>
+<div class="emoji" style="left:90%; animation-delay:8s; font-size:95px;">🧪</div>
+
+<!-- LOGIN BOX -->
+<div class="login-container">
+
+    <h2>🩺 AI Breast Cancer Assistant</h2>
+    <p class="subtitle">Secure login to diagnostic system</p>
+
+    <form action="http://localhost:8501" method="get" autocomplete="off">
+
+        <label class="field-label">Username</label>
+        <input
+            type="text"
+            name="username"
+            placeholder="Enter your name or email"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+            required
+        >
+
+        <label class="field-label">Password</label>
+        <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+            autocomplete="new-password"
+            required
+        >
+
+        <button type="submit">Access Dashboard</button>
+
+    </form>
+
+</div>
+
+<!-- EMOJI ANIMATION -->
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.emoji').forEach((emoji, i) => {
+        setTimeout(() => emoji.classList.add('animate'), i * 120);
+    });
+});
+</script>
+
+</body>
+</html>

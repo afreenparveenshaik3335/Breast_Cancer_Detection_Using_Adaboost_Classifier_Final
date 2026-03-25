@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome - AI Breast Cancer Diagnostic Assistant</title>
+
+<!-- ✅ LOAD POPPINS FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+/* 🩺 BACKGROUND */
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+        url("./Assest/img4.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+/* ✨ BIG FLOATING MEDICAL EMOJIS */
+.emoji{
+    position:absolute;
+    font-size:90px;
+    opacity:0.4;
+    animation:float 10s linear infinite;
+}
+
+@keyframes float{
+    from{ transform:translateY(120vh); }
+    to{ transform:translateY(-20vh); }
+}
+
+/* 🧊 WIDE GLASS CONTAINER */
+.main-box{
+    max-width:1200px;   /* wider */
+    width:92%;
+    padding:70px 120px; /* more space inside */
+    /* smoother for large size */
+
+
+
+    background:rgba(0,166,199,0.18);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+
+    border-radius:32px;
+    box-shadow:0 30px 70px rgba(0,0,0,0.6);
+
+    text-align:center;
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{ opacity:0; transform:translateY(30px); }
+    to{ opacity:1; transform:translateY(0); }
+}
+
+/* 💓 MEDICAL ICON */
+.heart{
+    font-size:80px;
+    animation:pulse 1.3s infinite;
+}
+
+@keyframes pulse{
+    0%{ transform:scale(1); }
+    50%{ transform:scale(1.15); }
+    100%{ transform:scale(1); }
+}
+
+/* ✅ TEXT — POPPINS + WHITE */
+h1{
+    font-size:38px;
+    margin:20px 0;
+    color:#ffffff;
+    font-weight:600;
+    letter-spacing:0.5px;
+}
+
+p{
+    font-size:18px;
+    color:#ffffff;
+    opacity:0.9;
+    margin-bottom:35px;
+    font-weight:400;
+}
+
+/* 🔵 BUTTON */
+.start-button{
+    padding:16px 42px;
+    background:linear-gradient(to right,#00A6C7,#007C99);
+    color:white;
+    border-radius:16px;
+    text-decoration:none;
+    font-size:19px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.start-button:hover{
+    background:linear-gradient(to right,#0093B1,#006F8A);
+    box-shadow:0 12px 30px rgba(0,166,199,0.6);
+}
+</style>
+</head>
+
+<body>
+
+<!-- Floating emojis -->
+<div class="emoji" style="left:10%; animation-delay:0s; font-size:100px;">🧬</div>
+<div class="emoji" style="left:30%; animation-delay:2s; font-size:90px;">💊</div>
+<div class="emoji" style="left:50%; animation-delay:4s; font-size:110px;">🩺</div>
+<div class="emoji" style="left:70%; animation-delay:6s; font-size:100px;">🫀</div>
+<div class="emoji" style="left:90%; animation-delay:8s; font-size:95px;">🧪</div>
+
+<!-- Main content -->
+<div class="main-box">
+    <div class="heart">🩺</div>
+    <h1>AI Breast Cancer Diagnostic Assistant</h1>
+    <p>
+        Your intelligent assistant for early breast cancer detection,
+        combining AI precision with medical insight.
+    </p>
+    <a href="login.html" class="start-button">Get Started</a>
+</div>
+
+</body>
+</html>

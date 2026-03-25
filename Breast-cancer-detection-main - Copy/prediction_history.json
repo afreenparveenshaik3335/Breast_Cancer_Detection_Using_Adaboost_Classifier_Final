@@ -1,0 +1,266 @@
+[
+    {
+        "Name": "parveen",
+        "Age": 21,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "shaik",
+        "Age": 30,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 40,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.596762048781846,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 40,
+        "Gender": "Female",
+        "Diagnosis": "Benign (No Cancer)",
+        "Probability": 0.3292536960773879,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 40,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.6351570526231997,
+        "Risk": "\ud83d\udd34 High Risk",
+        "Confidence": "High Confidence",
+        "Recommended Action": "\ud83c\udfaf Schedule follow-up with specialist"
+    },
+    {
+        "Name": "shaik afreen parveen",
+        "Age": 40,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "parveen",
+        "Age": 20,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "tasleema",
+        "Age": 39,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "asima",
+        "Age": 39,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "Neerfa",
+        "Age": 21,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "Neerfa",
+        "Age": 21,
+        "Gender": "Female",
+        "Diagnosis": "Benign (No Cancer)",
+        "Probability": 0.452124202913328,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "Sania",
+        "Age": 21,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "Vasantha",
+        "Age": 20,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 1,
+        "Gender": "Female",
+        "Diagnosis": "Benign (No Cancer)",
+        "Probability": 0.4794762682715042,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 1,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.583227152997268,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "vasantha",
+        "Age": 24,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested",
+        "Date": "2026-01-31",
+        "Time": "21:52:36"
+    },
+    {
+        "Name": "neeraf",
+        "Age": 28,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested",
+        "Date": "2026-01-31",
+        "Time": "21:53:11"
+    },
+    {
+        "Name": "neerfa",
+        "Age": 20,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "Afreen",
+        "Age": 21,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "Afreen",
+        "Age": 21,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 19,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 21,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 20,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 1,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5229332758835524,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 1,
+        "Gender": "Female",
+        "Diagnosis": "Malignant (Cancer Detected)",
+        "Probability": 0.5139293487528326,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    },
+    {
+        "Name": "afreen",
+        "Age": 1,
+        "Gender": "Female",
+        "Diagnosis": "Benign (No Cancer)",
+        "Probability": 0.4166985400830314,
+        "Risk": "\ud83d\udfe1 Medium Risk",
+        "Confidence": "Moderate Confidence",
+        "Recommended Action": "\u26a0\ufe0f Additional testing suggested"
+    }
+]
